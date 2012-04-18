@@ -1,0 +1,56 @@
+@media screen and (min-width: 700px) {
+
+  header {
+    margin: 20px 10px;
+    text-align: left;
+  }
+  
+  header nav {
+    margin-top: -40px;
+    float: right;
+  }
+  
+  .intro {
+    margin: 0 10px;
+    color: #D4ECF2;
+    text-align: left;
+    background: #147186;
+    padding: 20px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro p {
+    margin: 0;
+  }
+  
+  .intro strong {
+    color: white;
+  }
+  
+  .primary .content {
+    margin: 0 10px;
+  }
+  
+  .secondary .content {
+    margin: 0 10px;
+  }
+
+  .secondary .column {
+    margin: 0;
+  }
+
+  .no-right-margin {
+    margin-right: 0 !important;
+  }
+
+  .secondary .column {
+    width: 33.333333333%;
+    float: left;
+  }
+  
+}

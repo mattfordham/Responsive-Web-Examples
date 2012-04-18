@@ -1,0 +1,89 @@
+@media screen and (min-width: 700px) {
+  
+  header {
+    text-align: left;
+  }
+  
+  header nav {
+    margin-top: -40px;
+    float: right;
+  }
+  
+  .intro {
+    color: #D4ECF2;
+    text-align: left;
+    background: #147186;
+    padding: 20px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro p {
+    margin: 0;
+  }
+  
+  .intro strong {
+    color: white;
+  }
+  
+  .main-column {
+    
+  }
+  
+  .primary {
+    float: right;
+    width: 70%;
+  }
+  
+  .primary .content {
+    margin-left: 20px;
+  }
+  
+  .secondary {
+    float: left;
+    width: 30%;
+    font-size: 14px;
+  }
+  
+  .secondary h2 {
+    font-size: 22px;
+  }
+  
+  .tertiary {
+    clear: both;
+  }
+
+}
+
+
+@media screen and (min-width: 900px) {
+
+  .intro {
+  }
+  
+  .main-column {
+    float: left;
+    width: 75%;
+  }
+  
+  .primary .content {
+    margin-right: 20px;
+  }
+   
+  .tertiary {
+    width: 25%;
+    clear: none;
+    float: right;
+    font-size: 14px;
+  }
+
+  .tertiary h2 {
+    font-size: 22px;
+  }
+  
+
+}

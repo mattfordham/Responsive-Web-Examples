@@ -1,0 +1,58 @@
+@media screen and (min-width: 650px) {
+  
+  .intro {
+    margin: 0 10px;
+  }
+  
+  header {
+    margin: 20px 10px;
+    text-align: left;
+  }
+  
+  header nav {
+    margin-top: -40px;
+    float: right;
+  }
+  
+  .primary .content {
+    margin: 0 10px;
+  }
+  
+  .secondary .content {
+    margin: 0 10px;
+  }
+
+  .secondary .column {
+    margin: 0;
+  }
+
+  .no-right-margin {
+    margin-right: 0 !important;
+  }
+
+  .secondary .column {
+    width: 33.333333333%;
+    float: left;
+  }
+  
+  .mobile {
+    display: none;
+  }
+  
+  .tablet {
+    display: block;
+  }
+  
+}
+
+@media screen and (min-width: 900px) {
+
+  .tablet {
+    display: none;
+  }
+  
+  .desktop {
+    display: block;
+  }
+  
+}
