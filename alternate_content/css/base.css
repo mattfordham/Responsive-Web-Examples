@@ -2,21 +2,22 @@
 --------------------------------------------- */
 
 body {
-  background: #EBF6F8;
+  background: whiteSmoke url('../img/background.gif') repeat-x fixed;
+  background-attachment: fixed !important;
   color: #3B3E3E;
   padding: 20px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 22px;
-  border-top: 6px solid #147186;
+  font-family: "open sans", arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  border-top: 6px solid #333333;
 }
 
 strong {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 p {
-  margin: 20px 0;
+  margin: 15px 0;
 }
 
 p:last-child {
@@ -30,7 +31,7 @@ a {
 }
 
 small {
-  font-size: 16px;
+  font-size: 36px;
   position: relative;
   top: -12px;
 }
@@ -40,25 +41,38 @@ a:hover {
 }
 
 h1, h2 {
-  margin: 20px 0;
-  font-family: 'Share', sans-serif;
+  margin: 15px 0;
+  font-family: 'proxima-nova-alt-ext-cond', sans-serif;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 h1 {
   margin-top: 0;
-  font-size: 46px;
-  text-shadow: 3px 3px 0px #C3DEE3;
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: normal;
+  text-shadow: 2px 2px 0px #9AC4CC;
 }
 
 h2 {
   margin-top: 0;
-  font-size: 28px;
+  font-size: 27px;
+  font-weight: normal;
   line-height: 30px;
 }
 
 section {
   margin: 20px 0;
+}
+
+img {
+  max-width: 100%;
+  float: left;
+  margin: 0 20px 20px 0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
 }
 
 .content {
@@ -80,6 +94,18 @@ footer {
   text-align: center;
   clear: both;
   margin-top: 20px;
+}
+
+.blue {
+  background: #DAF3FA;
+}
+
+.pink {
+  background: #FCDBEC;
+}
+
+.green {
+  background: #E2F3D1;
 }
 
 
@@ -107,9 +133,9 @@ nav ul li {
   padding: 20px;
   
   color: #D4ECF2;
-  background: #AD204B;
-  font-family: 'Share', sans-serif;
-  font-size: 28px;
+  background: #F38D4A;
+  font-family: 'proxima-nova-alt-ext-cond', sans-serif;
+  font-size: 32px;
   line-height: 33px;
   font-weight: normal;
   text-align: center;
@@ -145,10 +171,6 @@ nav ul li {
   margin: 0px;
 }
 
-.secondary .content {
-  background: #C3DEE3;
-}
-
 .secondary .column {
   margin-bottom: 20px;
 }
@@ -159,10 +181,10 @@ nav ul li {
 
 .desktop {
   display: none;
-  background: #288314;
+  background: #F2529E;
 }
 
 .tablet {
   display: none;
-  background: #B05A06;
+  background: #00C0BA;
 }
