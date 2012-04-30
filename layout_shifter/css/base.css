@@ -1,0 +1,155 @@
+/* Global 
+--------------------------------------------- */
+
+body {
+  background: whiteSmoke url('../img/background.gif') repeat-x fixed;
+  background-attachment: fixed !important;
+  color: #3B3E3E;
+  padding: 20px;
+  font-family: "open sans", arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  border-top: 6px solid #333333;
+}
+
+strong {
+  font-weight: normal;
+}
+
+p {
+  margin: 15px 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+a {
+  color: #147186;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+small {
+  font-size: 36px;
+  position: relative;
+  top: -12px;
+}
+
+a:hover {
+  color: #64B9C9;
+}
+
+h1, h2 {
+  margin: 15px 0;
+  font-family: 'proxima-nova-alt-ext-cond', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 50px;
+  font-weight: normal;
+  text-shadow: 2px 2px 0px #9AC4CC;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 27px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+img {
+  max-width: 100%;
+  float: left;
+  margin: 0 20px 20px 0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.content {
+  padding: 20px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  clear: both;
+  margin-top: 20px;
+}
+
+.blue {
+  background: #DAF3FA;
+}
+
+.pink {
+  background: #FCDBEC;
+}
+
+.green {
+  background: #E2F3D1;
+}
+
+
+/* Nav 
+--------------------------------------------- */
+
+nav {
+  text-align: center;
+  overflow: hidden;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 5px;
+  border-bottom: 1px solid #C3DEE3;
+}
+
+/* Sections 
+--------------------------------------------- */
+
+.wrapper {
+  margin: 0 auto;
+}
+
+.intro {
+  clear: both;
+  font-family: 'proxima-nova-alt-ext-cond', sans-serif;
+  font-size: 32px;
+  line-height: 33px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.primary .content {
+  background: #ffffff;
+  margin: 0px 0;
+}
+
+.secondary {
+  overflow: hidden;
+  margin: 0px;
+}
+
+
+.secondary .column {
+  margin-bottom: 20px;
+}
